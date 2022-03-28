@@ -13,6 +13,9 @@
         android:src="#2c2c2c" />
 
     <EditText
+        android:padding="6dp"
+        android:background="@drawable/borda"
+        android:drawableRight="@drawable/ic_baseline_email"
         android:id="@+id/edtUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,6 +24,9 @@
         android:maxLength="100" />
 
     <EditText
+        android:padding="6dp"
+        android:background="@drawable/borda"
+        android:drawableRight="@drawable/ic_baseline_lock"
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
